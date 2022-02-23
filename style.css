@@ -1,0 +1,189 @@
+*{
+    padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
+.company-picture {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: end;
+}
+.company-box {
+	width: 30%;
+	border: 1px solid #ddd;
+}
+.company-box img {
+	opacity: 0.5;
+    transition: .5s;
+}
+.company-box:hover img{
+    opacity: 1;
+}
+.company-text{}
+.company-text h5 {
+	color: blue;
+}
+.company-text h2 {
+	font-size: 34px;
+	font-weight: 600;
+	margin-bottom: 36px;
+}
+.company-text p{}
+
+.company-text h1 span{
+    position: relative;
+}
+.company-text h1 span::after {
+	content: "";
+	width: 70px;
+	height: 2px;
+	
+	bottom: -2px;
+	background-color: #3462EB;
+	position: absolute;
+	left: 0;
+}
+.news-con{
+	text-align: center;
+}
+.news-con h3{}
+.news-con h1{}
+
+.news-con h1 span{
+	position: relative;
+}
+.news-con h1 span::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: #3462EB;
+	bottom: -15px;
+	left: 0;
+}
+.news-con p {
+	width: 700px;
+	margin: auto;
+	margin-top: 33px;
+}
+.card-div .card{
+border:none;
+}
+.card-div .card h3{}
+.card-top{
+	position:relative;
+}
+.card-top{
+	position:relative
+}
+.clients-picture {
+	align-items: center;
+	justify-content: space-between;
+	background-color: #3462EB;
+	display: flex;
+	width: 52%;
+	border-radius: 30px;
+	top: 170px;
+	position: absolute;
+	left: 151px;
+	color: white;
+	padding: 0px 10px;
+}
+.client-img img {
+	width: 64px;
+	border-radius: 50%;
+	padding: 5px 10px;
+}
+.client-name p {
+	margin-top: 9px;
+	
+}
+.footer-section{
+	background-color: #081828;
+	color:white;
+	padding:30px 0px;
+	margin-top:60px;
+}
+.div-one{}
+.div-one img {
+	width: 154px;
+	margin-top: 40px;
+}
+.div-one p{}
+.div-one ul{}
+.div-one ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 0px 6px;
+}
+.div-one ul li i{}
+.div-two{}
+.div-two ul li {
+	list-style: none;
+	font-weight: 600;
+}
+
+.div-two {
+	margin-top: 94px;
+}
+.div-two ul li span{
+	position: relative;
+}
+.div-two ul li span::after {
+	content: "";
+	position: absolute;
+	width: 2px;
+	height: 25px;
+	top: 3px;
+	left: -11px;
+	background-color: #3462EB;
+}
+
+.div-three {
+	margin-top: 94px;
+}
+.div-three ul li span{
+	position: relative;
+}
+.div-three ul li span::after {
+	content: "";
+	position: absolute;
+	width: 2px;
+	height: 25px;
+	top: 3px;
+	left: -11px;
+	background-color: #3462EB;
+}
+.div-three ul li {
+	list-style: none;
+	font-weight: 600;
+}
+.div-four {
+	margin-top: 94px;
+}
+
+.div-four ul li span{
+	position: relative;
+}
+.div-four ul li span::after {
+	content: "";
+	position: absolute;
+	width: 2px;
+	height: 25px;
+	top: 3px;
+	left: -11px;
+	background-color: #3462EB;
+}
+.div-four ul li {
+	list-style: none;
+	font-weight: 600;
+}
+.marg-line{
+	border-bottom: 2px solid white;
+}
